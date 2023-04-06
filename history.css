@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 19vh;
+    background-size: cover;
+    background-position: center; 
+    
+}
+
+nav {
+    width:85%;
+    margin:auto;
+    padding:10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+    
+}
+
+#logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.left-content {
+	position: fixed;
+	width: 238px;
+    float: left;
+	background-color: #f1f1f1;
+	background-image: url(left-bottom.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	clear: both;
+	padding-bottom: 24px;
+}
+ h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    line-height: 48px;
+    color: #f1f1f1;
+    background-image: url(left-head.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 48px;
+    padding-left: 17px;}
+.left-content ul {
+	padding-right: 18px;
+	padding-left: 18px;
+	list-style-type: none;
+}
+.left-content ul li {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cbcccc;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 29px;
+	color: #000000;
+	text-decoration: none;
+	background-image: url(history-book.png);
+	background-repeat: no-repeat;
+	background-position: 7px center;
+	text-align: left;
+	display: block;
+	height: 29px;
+	padding-left: 35px;
+}
+.left-content ul li a {
+	color: #000000;
+}
+.left-content ul li a:hover {
+	color: #ff0303;
+}
+.left-content ol {
+	padding-right: 11px;
+	padding-left: 11px;
+	list-style-type: none;
+}
+.left-content ol li {
+	color: #000000;
+	background-image: url(black-bullet.jpg);
+	background-repeat: no-repeat;
+	background-position: left 24px;
+	padding-left: 16px;
+	padding-top: 20px;
+}
+.article{position:relative;width: 800px
+	;float: right;background-color: #ff0303;height: 500px;margin-right: 20px;margin-bottom: 40px;}
+.imghist{  position: absolute;
+    bottom: 0;
+    right: 0;}
+
+	
+
+
+
+

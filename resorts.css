@@ -49,6 +49,10 @@ header nav ul li a {
 footer {
     background-color: #021b2b;
     padding: 50px 0;
+    bottom: 0;
+    width: 100%;
+    position: initial;
+    
   }
   
   .container {
@@ -90,3 +94,78 @@ footer {
 
 /*CSS FOR THE FOOTER ENDS FROM HERE*/
   
+/*CSS FOR THE CONTENT STARTS HERE*/
+.left-content {
+	position: fixed;
+	width: 17%;
+    float: left;
+	background-color: #f1f1f1;
+	background-image: url(left-bottom.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	clear: both;
+	padding-bottom: 24px;
+    
+}
+ h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    line-height: 48px;
+    color: #f1f1f1;
+    background-image: url(left-head.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 48px;
+    padding-left: 17px;}
+.left-content ul {
+	padding-right: 18px;
+	padding-left: 18px;
+	list-style-type: none;
+}
+.left-content ul li {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cbcccc;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 29px;
+	color: #000000;
+	text-decoration: none;
+	background-image: url(history-book.png);
+	background-repeat: no-repeat;
+	background-position: 7px center;
+	text-align: left;
+	display: block;
+	height: 29px;
+	padding-left: 35px;
+}
+.left-content ul li a {
+	color: #000000;
+}
+.left-content ul li a:hover {
+	color: #ff0303;
+}
+.left-content ol {
+	padding-right: 11px;
+	padding-left: 11px;
+	list-style-type: none;
+}
+.left-content ol li {
+	color: #000000;
+	background-image: url(black-bullet.jpg);
+	background-repeat: no-repeat;
+	background-position: left 24px;
+	padding-left: 16px;
+	padding-top: 20px;
+}
+.article{position:relative;width: 80%
+	;float: right;background-color: #ff0303;height: 500px;margin-right: 20px;margin-bottom: 40px;margin-bottom: 80px;}
+.imghist{  position: absolute;
+    bottom: 0;
+    right: 0;}
+
+	
+
+
+
+
