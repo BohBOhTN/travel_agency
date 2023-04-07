@@ -9,7 +9,7 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image: url(gallary/iStock-1150850339.jpg);
+    background-image: url(gallary/iStock-1137648637.jpg);
     background-size: cover;
     height: 100vh;
     
@@ -42,13 +42,13 @@ header nav ul li {
 }
 
 header nav ul li a {
-  text-decoration: none;
-  text-transform: capitalize;
-  color: white;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-  text-shadow: 1px 1px 2px rgb(57, 39, 39);
-  
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(57, 39, 39);
+    
 }
 
 /*CSS FOR THE HEADER INCLUDING THE NAV BAR ENDS FROM HERE*/
@@ -148,7 +148,7 @@ footer {
 
 /*CSS FOR MAIN STARTS HERE */
 main{
-    height: 170vh;
+    height: 300vh;
     margin-top: 12%;
     
 
