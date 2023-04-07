@@ -139,6 +139,10 @@ footer {
   
   
 }
+.first_view button a{
+  text-decoration: none;
+  color: white;
+}
 /*CSS FOR FIRST_VIEW DIV ENDS HERE */
 
 /*CSS FOR MAIN STARTS HERE */
